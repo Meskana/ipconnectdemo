@@ -157,7 +157,7 @@ export default function Features() {
               viewport={{ once: true }}
               className="  "
             >
-              <div className="relative group bg-gradient-to-br from-[#454847] from-[2%] via-[#111312] via-[30%] to-[#0a0b0b] rounded-[2rem] p-5 h-full border border-white/10 shadow-2xl transition-all duration-500 hover:border-emerald-500/40 hover:shadow-emerald-500/10">
+              <div className="relative group bg-gradient-to-br from-[#454847] from-[2%] via-[#111312] via-[30%] to-[#0a0b0b] rounded-[2rem] p-3 h-full border border-white/10 shadow-2xl transition-all duration-500 hover:border-emerald-500/40 hover:shadow-emerald-500/10">
                 {/* SALES BADGE - Properly positioned */}
                 {item.sales && (
                   <span
@@ -194,9 +194,6 @@ export default function Features() {
                     </span>
 
                     {/* Decorative Plus Icon for a 'Pro' feel */}
-                    <button className="h-10 w-10 rounded-full bg-white text-black flex items-center justify-center hover:bg-emerald-500 transition-colors">
-                      <span className="text-xl">+</span>
-                    </button>
                   </div>
                 </div>
               </div>

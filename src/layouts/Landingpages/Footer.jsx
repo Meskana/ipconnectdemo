@@ -6,10 +6,20 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center  items-start gap-12 mx-auto">
         {/* Logo and company name */}
         <div className="flex flex-col items-center md:items-start w-full md:w-auto">
-          <span className="text-5xl font-bold" style={{ color: "#1C7AE7" }}>
+          <span
+            className="text-4xl bg-gradient-to-r
+    from-[#0f9d58]
+    via-white
+    to-[#0f9d58]
+    bg-clip-text
+    text-transparent "
+            style={{
+              color: "bg-linear-to-r from-[#0f9d58] via-[#ffffff] to-[#0f9d58]",
+            }}
+          >
             IP-Connect
             <sub className="text-sm" style={{ color: "#307d6b" }}>
-              Inc.
+              comm.
             </sub>
           </span>
           <span className="mt-2 text-lg font-semibold">IP-Connect comm.</span>
@@ -65,7 +75,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="bg-[#1C7AE7] hover:bg-blue-700 text-white px-4 py-3 rounded-r"
+              className="bg-[#0f9d58] hover:bg-blue-700 text-white px-4 py-3 rounded-r"
             >
               Subscribe
             </button>
